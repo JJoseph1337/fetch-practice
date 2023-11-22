@@ -16,6 +16,8 @@ interface Users {
   email: string;
 }
 
+console.log("testim");
+
 function App() {
   const [posts, setPosts] = useState<Post[]>([]);
   const [users, setUsers] = useState<Users[]>([]);
